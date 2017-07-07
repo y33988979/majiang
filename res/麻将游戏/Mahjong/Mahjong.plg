@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mahjong - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Mahjong.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\Mahjong.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mahjong.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\BasicThink.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\CleverThink.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\CmpThink.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\Mahjong.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\MahjongDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\MajHu.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\Wanjia.cpp"
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\ZuoMaj.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mahjong.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\987978293game_Majiang\龚义__麻将游戏\Mahjong\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+winmm.lib msimg32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mahjong.pdb" /debug /machine:I386 /out:"Debug/Mahjong.exe" /pdbtype:sept 
+".\Debug\BasicThink.obj"
+".\Debug\CleverThink.obj"
+".\Debug\CmpThink.obj"
+".\Debug\Mahjong.obj"
+".\Debug\MahjongDlg.obj"
+".\Debug\MajHu.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Wanjia.obj"
+".\Debug\ZuoMaj.obj"
+".\Debug\Mahjong.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BasicThink.cpp
+CleverThink.cpp
+CmpThink.cpp
+Mahjong.cpp
+MahjongDlg.cpp
+MajHu.cpp
+Wanjia.cpp
+ZuoMaj.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Mahjong.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\BasicThink.sbr" ".\Debug\CleverThink.sbr" ".\Debug\CmpThink.sbr" ".\Debug\Mahjong.sbr" ".\Debug\MahjongDlg.sbr" ".\Debug\MajHu.sbr" ".\Debug\Wanjia.sbr" ".\Debug\ZuoMaj.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mahjong.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
